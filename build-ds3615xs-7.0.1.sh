@@ -9,9 +9,9 @@ mkdir output
 cd DS3615xs-7.0.1
 
 sudo git clone https://github.com/tossp/redpill-tool-chain.git
-ll
+ls -l
 
-sudo cd redpill-tool-chain
+cd redpill-tool-chain
 sudo cp -a sample_user_config.json bromolow_user_config.json
 sudo ./redpill-tool-chain add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8168/rpext-index.json
 sudo ./redpill_tool_chain build bromolow-7.0.1-42218
