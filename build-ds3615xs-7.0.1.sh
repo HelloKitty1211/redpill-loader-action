@@ -18,9 +18,11 @@ ls -l
 # sudo ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8168/rpext-index.json
 # sudo ./redpill_tool_chain.sh build bromolow-7.0.1-42218
 # sudo ./redpill_tool_chain.sh auto bromolow-7.0.1-42218
+sudo chmod 755 rp-helper.sh
 sudo ./rp-helper.sh ext bromolow-7.0.1-42218 add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8168/rpext-index.json
 sudo ./rp-helper.sh build bromolow-7.0.1-42218
 sudo ./rp-helper.sh auto bromolow-7.0.1-42218
+ls -l
 ls images -l
 sudo mv images/redpill-DS3615xs_7.0.1-42218*.img ${root}/output/
 cd ${root}
