@@ -18,5 +18,5 @@ sudo ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-e
 sudo ./redpill_tool_chain.sh build bromolow-7.0.1-42218
 sudo ./redpill_tool_chain.sh auto bromolow-7.0.1-42218
 ls images -l
-mv images/redpill-DS3615xs_7.0.1-42218*.img ${root}/output/
+sudo mv images/redpill-DS3615xs_7.0.1-42218*.img ${root}/output/
 cd ${root}
